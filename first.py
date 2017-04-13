@@ -9,6 +9,7 @@ tokenizer = RegexpTokenizer(r'\w+')
 enstop = get_stop_words('en')
 
 pstemmer = PorterStemmer()
+# Sample text document from FactivaZip 
 
 doc = """Factiva
 Dow Jones
@@ -172,7 +173,7 @@ IUT to hold "Hour of Code" campaign
 28 June 2016
 Uzbekistan Daily
 UZBDAY"""
-
+#Next time i will read mutiple files simultaneously not putting strings like these one. It is just for sample.  
 docx = [doc]
 
 texts = []
